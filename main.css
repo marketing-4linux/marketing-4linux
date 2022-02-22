@@ -1,0 +1,33 @@
+/*====  Alinhar ícone da lista no topo ============================ */
+
+selector .elementor-icon-list-item {
+	align-items: baseline; 
+	}
+
+selector .elemewntor-icon-list-item i {
+	padding-top: 5px;
+	}
+
+
+/*====  Glassmorphism no item ============================ */
+
+
+
+
+
+/*====  Selo rotacionando ============================ */
+
+definir a class 'rodando'
+
+.rodando {
+	-webkit-animation: rodando 30s linear infinite
+	}
+
+@-webkit-keyframes rodando{
+	from{
+	 -webkit-transform: rotate(0deg);
+	}
+	to{
+	 -webkit-transform: rotate(360deg)/
+	 }
+	}
