@@ -38,3 +38,28 @@ definir a class 'rodando'
 	 -webkit-transform: rotate(360deg)/
 	 }
 	}
+
+/*====  Botão WhatsApp destaque ============================ */
+
+definir a classe pulse black
+
+.chat {
+    animation: pulse-black 2s infinite;
+    border-radius: 50%;
+}
+
+@-webkit-keyframes pulse-black {
+    0% {
+    -webkit-box-shadow: 0 0 0 0 rgb(76 175 80 / 70%);
+    box-shadow: 0 0 0 0 rgb(76 175 80 / 70%);
+}
+70% {
+    -webkit-box-shadow: 0 0 0 15px rgb(76 175 80 / 0%);
+    box-shadow: 0 0 0 15px rgb(76 175 80 / 0%);
+}
+
+100% {
+    -webkit-box-shadow: 0 0 0 0 rgb(76 175 80 / 0%);
+    box-shadow: 0 0 0 0 rgb(76 175 80 / 0%);
+}
+}
